@@ -1,0 +1,77 @@
+.font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-style: normal;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+/* shared styles  */
+.flex{
+    display: flex;
+}
+.btn-main{
+    padding: 12px 30px 12px 30px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 32px;
+    border: none;
+}
+.small-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem; 
+    font-weight: 400;
+}
+/* header styles */
+.background-header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-repeat: no-repeat;
+}
+.front-nav{
+    border: 1px solid gray;
+    text-align: center;
+border-radius: 15px;
+gap: 20px;
+}
+.front-nav > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-right:17px ;
+}
+.nav{
+    justify-content:space-between;
+    align-items: center;
+    margin: 57px 150px;
+}
+.title-font{
+    font-size: 1.56rem;
+    color: rgb(230, 83, 60);
+}
+.btn-home{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border-radius: 14px;
+    border: none;
+    padding: 5px 15px;
+}
+.btn-sub{
+    padding: 12px 30px 12px 30px;
+    background-color: transparent;
+    border-radius: 32px;
+    color: white;
+    border: 1px solid white;
+}
+.big-text{
+    font-size: 3.65rem;
+    font-weight: 900;
+}
+.banner-text{
+    width: 425px;
+height: 310px;
+margin-left:150px ;
+}
