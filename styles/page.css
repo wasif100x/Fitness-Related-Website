@@ -34,14 +34,17 @@ body {
     font-size: 0.90rem;
     font-weight: 400;
 }
-.medium-text{
+
+.medium-text {
     font-size: 1.5rem;
-font-weight: 600;
+    font-weight: 600;
 }
-.large-text{
+
+.large-text {
     font-size: 2rem;
-font-weight: 900;
+    font-weight: 900;
 }
+
 /* header styles */
 .background-header {
     background: linear-gradient(180deg, rgb(17, 17, 17) 0%, rgb(61, 61, 61) 50%, rgb(17, 17, 17) 100%);
@@ -156,35 +159,61 @@ p {
     align-items: center;
     border-radius: 12px;
 }
+
 /* change your habits styles */
-.habits-container{
-  /* margin: 100px 187px; */
-     flex-direction: column;
-     align-items: center;
-     
+.habits-container {
+    /* margin: 100px 187px; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
 }
-.habit-text{
+
+.habit-text {
     text-align: center;
     padding-bottom: 50px;
     gap: 10px;
 }
-.habit-box > div > img{
+
+.habit-box>div>img {
     border-radius: 50%;
 }
-.habit-box-text{
+
+.habit-box-text {
     text-align: center;
     padding: 0px 30px;
 }
-.habit-box{
+
+.habit-box {
     align-items: center;
 }
-.habit-box > div {
+
+.habit-box>div {
     text-align: center;
     margin-left: 10px;
     align-items: center;
 }
 
+/* join the program section styles */
+.join-now>div>img {
+    width: 259px;
+    height: 221px;
+    margin: 30px;
+    border-radius: 15px;
+}
 
+.join-now {
+    border-radius: 18px;
+    width: 1170px;
+    height: 278px;
+    margin: 100px 100px;
+    background: rgb(34, 34, 34);
+
+}
+
+.run-text {
+    margin: 30px 100px 30px 30px;
+    padding-right: 200px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -264,5 +293,39 @@ p {
         border: 1px solid rgb(255, 255, 255);
         width: 18px;
         height: 0;
+    }
+
+    .habit-box {
+        flex-direction: column;
+    }
+
+    .habit-box>div {
+        margin-bottom: 10px;
+    }
+
+    /* join the program section styles */
+    .join-now {
+        padding: 25px;
+        flex-direction: column;
+        align-items: center;
+        width: 264px;
+        height: auto;
+        margin: auto;
+    }
+
+    .run-text {
+        margin: auto;
+        padding: 0;
+    }
+
+    .join-now>div>img {
+        height: 170px;
+        margin: 0px;
+        margin-top: 30px;
+        border-radius: 15px;
+    }
+    .btn-response{
+        width: 264px;
+height: 40px;
     }
 }
