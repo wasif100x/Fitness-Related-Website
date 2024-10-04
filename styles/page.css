@@ -353,10 +353,37 @@ table {
 #activity {
     grid-column: span 2;
 }
-
-
-
-
+/* my own */
+.box-own-cart{
+    gap: 20px;
+    justify-content: center;
+}
+.box-own{
+    border-radius: 10px;
+    width: 20%;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    flex-direction: column;
+    position: relative;
+}
+.box-own>img{
+    width: 100%;
+    height: 60%;
+}
+.box-course{
+    text-align: center;
+}
+.button-course{
+    position: absolute;
+    bottom: 10px;
+    width: 88%;
+    height: 30px;
+     background-color: rgb(235, 64, 38);
+    color: white;
+}
+.box-sec{
+    margin-bottom: 30px;
+}
 @media screen and (max-width:576px) {
 
     /* header part responsive */
@@ -579,5 +606,39 @@ table {
     .BMI-chart {
         margin: 0;
         margin-top: 30px;
+    }
+    /* my own part  */
+    .box-own-cart{
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+ 
+    .box-own{
+        width: 80%;
+    }
+    .box-own>img{
+        width: 100%;
+        height: 40%;
+    }
+    .box-course{
+        text-align: center;
+    }
+    .button-course{
+        position: absolute;
+        bottom: 10px;
+        width: 88%;
+        height: 30px;
+         background-color: rgb(235, 64, 38);
+        color: white;
+    }
+    .box-sec{
+        margin-bottom: 30px;
     }
 }
